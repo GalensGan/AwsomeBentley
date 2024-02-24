@@ -1,5 +1,15 @@
 AwsomeBentley 收集了 Bentley 软件二次开发相关的资料和示例，以供开发者学习研究。
 
+## 开发工具
+
+- 热重载
+
+  [GalensGan/MSAddinTest: A manager for Bentley Microstation Addin test (github.com)](https://github.com/GalensGan/MSAddinTest)
+
+- Addin CLI
+
+  [GalensGan/OneDo (github.com)](https://github.com/GalensGan/Onedo)
+
 ## 开发文档及示例
 
 [MicroStationAPI案例集](https://gitee.com/io9ioio9io/MicroStationAPI-Case-Set)
@@ -45,6 +55,10 @@ AwsomeBentley 收集了 Bentley 软件二次开发相关的资料和示例，以
 ## 帮助文档
 
 [MicroStation (bentley.com)](https://docs.bentley.com/LiveContent/web/OpenRoads Designer CONNECT-v11/en/GUID-1C5C2EE7-525F-497C-9214-2D84E4C71F36.html)
+
+## 优秀插件
+
+[GalensGan/BentleyPowerShortcut: 超级快捷键是一款可以让你在使用 Bentley 的产品时，拥有和 CAD 一样的快捷键体验的插件。 (github.com)](https://github.com/GalensGan/BentleyPowerShortcut)
 
 ## DotNET 开发资源
 
