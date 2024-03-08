@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KeyinTree xmlns="http://www.bentley.com/schemas/1.0/MicroStation/AddIn/KeyinTree.xsd">
+  <RootKeyinTable>
+    <Keyword CommandWord="app" SubtableRef="app" />
+  </RootKeyinTable>
+  <SubKeyinTables>
+    <SubKeyinTable ID="app">
+      <Keyword CommandWord="default" SubtableRef="default" />
+    </SubKeyinTable>
+    <SubKeyinTable ID="default">
+      <Keyword CommandWord="keyin" />
+    </SubKeyinTable>
+  </SubKeyinTables>
+  <KeyinHandlers>
+    <KeyinHandler Keyin="app default keyin" Function="Namespace.App.KeyinFunctions.Func" />
+  </KeyinHandlers>
+</KeyinTree>
