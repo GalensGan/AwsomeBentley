@@ -31,7 +31,6 @@ namespace CSharpMicrostation.ProgressExamples
                     Thread.Sleep(50);
                 }
             });
-            progress.Close();
         }
 
         [MSTest("TestThreadProgress")]

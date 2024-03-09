@@ -19,6 +19,14 @@ namespace CSharpMicrostation.ProgressExamples.FluentProgress
             _name = name;
         }
 
+        #region 设置
+        /// <summary>
+        /// 可通过修改该值来更改进度条的进度显示样式
+        /// 为空时，使用默认值
+        /// </summary>
+        public List<ProgressLabel> ProgressLabels { get; set; }
+        #endregion
+
         #region 内部实现细节
         private static Dictionary<string, ProgressOption> _progressOptionsDic = new Dictionary<string, ProgressOption>();
         private string _name;
@@ -42,6 +50,9 @@ namespace CSharpMicrostation.ProgressExamples.FluentProgress
                 {
                     MaxValue = Max,
                 };
+                if (ProgressLabels != null && ProgressLabels.Count > 0)
+                    _options.Labels = ProgressLabels;
+
                 _options.StartProgress();
                 _progressOptionsDic.Add(_name, _options);
             }
