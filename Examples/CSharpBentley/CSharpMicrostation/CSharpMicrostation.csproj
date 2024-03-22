@@ -283,7 +283,7 @@
   <ItemGroup>
     <Compile Include="Core\Helpers\ArgumentParserHelper.cs" />
     <Compile Include="Core\Logs\Logger.cs" />
-    <Compile Include="DTranformExamples\Test.cs" />
+    <Compile Include="DTranformExamples\Startup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgressExamples\FluentProgress\ProgressOption.cs" />
     <Compile Include="ProgressExamples\FluentProgress\ProgressWindow.xaml.cs">
@@ -292,7 +292,7 @@
     <Compile Include="ProgressExamples\FluentProgress\ThreadProgress.cs" />
     <Compile Include="ProgressExamples\MSProgress.cs" />
     <Compile Include="ProgressExamples\ProgressBase.cs" />
-    <Compile Include="ProgressExamples\Test.cs" />
+    <Compile Include="ProgressExamples\Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup\AppAddin.cs" />
     <Compile Include="Startup\KeyinFunctions.cs" />
@@ -300,6 +300,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="DataImportExamples\readme.md" />
     <None Include="DTranformExamples\readme.md" />
     <None Include="ProgressExamples\readme.md" />
   </ItemGroup>
@@ -312,6 +313,9 @@
   <ItemGroup>
     <PackageReference Include="MSAddinTest">
       <Version>1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="NPOI">
+      <Version>2.6.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

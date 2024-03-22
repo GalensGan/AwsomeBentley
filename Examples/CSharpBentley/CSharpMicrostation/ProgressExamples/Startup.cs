@@ -16,7 +16,7 @@ namespace CSharpMicrostation.ProgressExamples
     /// <summary>
     /// 测试入口
     /// </summary>
-    internal class Test : IMSTest_StaticMethod
+    internal class Startup : IMSTest_StaticMethod
     {
         [MSTest("TestMSProgress")]
         public static void TestMSProgress(string unparsed)

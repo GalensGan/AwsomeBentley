@@ -15,9 +15,9 @@ namespace CSharpMicrostation.DTranformExamples
     /// <summary>
     /// 测试调用入口
     /// </summary>
-    internal class Test : IMSTest_StaticMethod
+    internal class Startup : IMSTest_StaticMethod
     {
-        private static ILog _logger = LogManager.GetLogger(typeof(Test));
+        private static ILog _logger = LogManager.GetLogger(typeof(Startup));
 
         /// <summary>
         /// 坐标变换测试
